@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
@@ -13,5 +15,210 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
+    display:flex;
+    flex-direction: column;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
+.colors{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color:white;
+}
+.primary{
+    background-color: var(--c-primary);
+    font-size: 24px;
+    padding: 50px;
+}
+.secondary{
+    background-color: var(--c-secondary);
+    font-size: 24px;
+    padding: 50px;
+}
+.tertiary{
+    background-color: var(--c-tertiary);
+    font-size: 24px;
+    padding: 50px;
+    color:black;
+}
+.quaternary{
+    background-color: var(--c-quaternary);
+    font-size: 24px;
+    padding: 50px;
+}
+.geeldoorzichtig{
+    background-color: var(--c-geeldoorzichtig);
+    font-size: 24px;
+    padding: 50px;
+    color:black;
+}
+.lichtgrijs{
+    background-color: #E1E1E1;
+    font-size: 24px;
+    padding: 50px;
+    color:black;
+}
+
+.merri{
+    font-family: var(--t-headings);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.lorem1{
+    font-family: var(--t-headings);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.robo{
+    font-family: var(--t-body);
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.lorem2{
+    font-family: var(--t-body);
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+.poir{
+    font-family: var(--t-logo);
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.lorem3{
+    font-family: var(--t-logo);
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.homeknoptitel{
+    display:flex;
+    justify-content: space-around;
+
+}
+h1{
+    font-family: var(--t-body);
+    font-size: 20px;
+}
+.knoppenhome{
+    display:flex;
+    justify-content: space-around;
+}
+.knop1{
+    font-family: var(--t-headings);
+    color: #ffffff;
+    background: var(--c-quaternary);
+    border: 1px solid none ;
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 100;
+    text-align: center;
+}
+.knop2{
+    font-family: var(--t-headings);
+    color: #000000;
+    background: var(--c-geeldoorzichtig);
+    border: 1px solid none ;
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 100;
+    text-align: center;
+}
+.mediaknop{
+display:inline-block;
+    padding: 10px;
+    font-size:61px;
+    color: var(--c-tertiary);
+    background-color: var(--c-primary);
+    margin: 40px;
+    text-decoration: none;
+    margin-bottom:100px;
+}
+.knop3{
+    font-family: var(--t-headings);
+    color: #ffffff;
+    background: var(--c-primary);
+    border: 1px solid none ;
+    padding: 20px;
+    font-size: 16px;
+    width: 161px;
+    height: 100;
+    text-align: center;
+}
+.knop4{
+    font-family: var(--t-headings);
+    color: #ffffff;
+    background: var(--c-secondary);
+    border: 1px solid none ;
+    padding: 20px;
+    font-size: 16px;
+    width: 161px;
+    height: 100;
+    text-align: center;
+}
+.knop5{
+    font-family: var(--t-body);
+    color: #ffffff;
+    background: var(--c-primary);
+    border: 1px solid none ;
+    padding: 10px;
+    font-size: 14px;
+    width: 161px;
+    height: 100;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    background-color:  #E1E1E1;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.form h1{
+    font-family: var(--t-headings);
+    text-align: center;
+    justify-content: center;
+}
+input {
+    margin: 10px 0;
+  }
+
+.titelform{
+    font-family: var(--t-headings);
+    font-weight: 700;
+}
+.formbox{
+    width:50px;
+    border: 1px solid #000000;
+}
+
+.formdate{
+    width:200px;
+    border: 1px solid #000000;
+
+}
+
+
+.txtform{
+    width:200px;
+    border: 1px solid #000000;
+
+}
+#appt{
+    width:50px;
+    border: 1px solid #000000;
+
+}
+::placeholder{
+    text-align:center;
+}
+

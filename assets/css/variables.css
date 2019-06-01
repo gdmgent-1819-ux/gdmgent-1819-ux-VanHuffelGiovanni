@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-lichtpaars: #9A57FF;
+  --c-donkerpaars: #4F317D; 
+  --c-geel: #FFF83D; 
+  --c-paarsdoorzichtig:rgba(154, 87, 255, 0.432);
+  --c-geeldoorzichtig:rgba(255, 249, 61, 0.685);
 
+
+
+  --c-primary: var(--c-lichtpaars);
+  --c-secondary: var(--c-donkerpaars);
+  --c-tertiary: var(--c-geel);
+  --c-quaternary: var(--c-paarsdoorzichtig);
   /**
    * Layout
    */
@@ -13,14 +26,9 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+  --t-headings: 'Merriweather', 'serif';
+  --t-body: 'Roboto', 'sans-serif';
+  --t-logo: 'Poiret One', 'cursive';
 }
 
 
