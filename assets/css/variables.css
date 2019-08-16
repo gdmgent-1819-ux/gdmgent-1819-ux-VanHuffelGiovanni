@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
 
 :root {
   /**
    * Colour palette
    */
-  --c-lichtpaars: #9A57FF;
-  --c-donkerpaars: #4F317D; 
-  --c-geel: #FFF83D; 
-  --c-paarsdoorzichtig:rgba(154, 87, 255, 0.432);
-  --c-geeldoorzichtig:rgba(255, 249, 61, 0.685);
+--c-pastelgeel:#FEF9C7;
+--c-donkergeel: #fce180;
+--c-lichtblauw: #9fedd7;
+--c-donkerblauw: #016670;
+
+
+  --c-primary: var(--c-pastelgeel);
+  --c-secundary:var(--c-donkergeel);
+  --c-tertiary: var(--c-lichtblauw);
+  --c-quaternary: var(--c-donkerblauw);
 
 
 
-  --c-primary: var(--c-lichtpaars);
-  --c-secondary: var(--c-donkerpaars);
-  --c-tertiary: var(--c-geel);
-  --c-quaternary: var(--c-paarsdoorzichtig);
+
   /**
    * Layout
    */
@@ -26,9 +27,13 @@
   /**
    * Typography
    */
-  --t-headings: 'Merriweather', 'serif';
-  --t-body: 'Roboto', 'sans-serif';
-  --t-logo: 'Poiret One', 'cursive';
+
+  
+
+  --t-headline: 'Lato', 'sans-serif';
+  --t-subtitle: 'Lato', 'sans-serif';
+  --t-body: 'Merriweather', 'serif';
+  --t-quote: 'Georgia', 'serif';
 }
 
 
